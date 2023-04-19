@@ -1,8 +1,17 @@
 [
   {
+    "id": 1,
     "titulo": "estudiar javascript",
     "descripcion": "los martes y jueves solamente jaja"
   },
-  { "titulo": "estudiar cocina", "descripcion": "ven que funciona" },
-  { "titulo": "estudiar teatro", "descripcion": "nunca" }
+  {
+    "id": 2,
+    "titulo": "estudiar cocina",
+    "descripcion": "ven que funciona"
+  },
+  {
+    "id": 3,
+    "titulo": "estudiar teatro",
+    "descripcion": "nunca"
+  }
 ]
