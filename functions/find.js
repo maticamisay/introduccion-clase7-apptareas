@@ -1,11 +1,8 @@
-// find function
+const { list } = require("./list");
 
-const find = (arr, func) => {
-  for (let i = 0; i < arr.length; i++) {
-    if (func(arr[i])) {
-      return arr[i];
-    }
-  }
-};
+function find(param) {
+  const titulos = list();
+  return titulos.includes(param);
+}
 
-module.exports = find;
+module.exports = { find };
